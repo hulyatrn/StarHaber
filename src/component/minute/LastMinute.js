@@ -75,7 +75,7 @@ export default function LastMinute() {
                 </div>
               </div>
               <p className="news-title">
-                Ankara'da kritik zirve! Alınan kararları Cumhurbaşkanı Erdoğan
+              Kırmızı et sektörüne inceleme başlatıldı
               </p>
             </div>
           </div>
