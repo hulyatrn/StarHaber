@@ -46,8 +46,7 @@ export default function LastMinute() {
                 </div>
               </div>
               <p className="news-title">
-                Özlem ve Tayyar Öz'ün şirketlerine neden kayyum atandığı ortaya
-                çıktı
+              Kırmızı et sektörüne inceleme başlatıldı
               </p>
             </div>
           </div>
