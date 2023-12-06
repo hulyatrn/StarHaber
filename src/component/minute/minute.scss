@@ -1,0 +1,70 @@
+.breaking-news {
+  background: linear-gradient(180deg, #f40000 0, #b70000 100%);
+  height: 46px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  .last-minute-title {
+    margin-left: 239px;
+    padding-left: 16px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      margin-bottom: 0;
+    }
+  }
+  .minute-slider {
+    margin-right: 239px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+
+    .ticker-container {
+      display: flex;
+      animation: marquee 20s linear infinite;
+    }
+
+    .ticker-item {
+      display: flex;
+      align-items: center;
+      margin-right: 20px; /* Adjust as needed */
+    }
+
+    .time-box {
+      width: 44px;
+      height: 20px;
+      background-color: #fff100;
+      margin-right: 6px;
+      text-align: center;
+    }
+
+    .news-title {
+      color: #fff;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .slider-title {
+      margin: 0 !important;
+      button {
+        display: none !important;
+      }
+    }
+  }
+}
